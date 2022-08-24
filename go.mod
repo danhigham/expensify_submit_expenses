@@ -1,4 +1,4 @@
-module github.com/danhigham/regular_expense
+module github.com/danhigham/expensify_submit_expenses
 
 go 1.18
 
