@@ -10,15 +10,15 @@ report:
 expenses:
   - merchant: merchant_name
     comment: this is item 1
-    category: "Benefits:Employee Perks - TAXABLE"
-    department: "700 - CS (Parent) ― 710 - CS"
+    category: "Category 1"
+    department: "Department 1"
     amount: 1599
     # date: "2018-01-01"
     currency: USD
   - merchant: per
     comment: this is item 2
     amount: 1234
-    category: "Employee Perk: Utilities"
+    category: "Category 2"
     # date: "2018-01-01"
-    department: "700 - CS (Parent) ― 710 - CS"
+    department: "Department 2"
     currency: USD

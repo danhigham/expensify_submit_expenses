@@ -7,13 +7,13 @@ curl -X POST 'https://integrations.expensify.com/Integration-Server/ExpensifyInt
     -d 'requestJobDescription={
         "type":"get",
         "credentials":{
-            "partnerUserID": "aa_dan_higham_sysdig_com",
-            "partnerUserSecret": "075c46ff080abd3c17c077368393396b9d225bd1"
+            "partnerUserID": "aa_john_smith",
+            "partnerUserSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "inputSettings":{
             "type":"policyList",
             "adminOnly":false,
-            "userEmail":"dan.higham@sysdig.com"
+            "userEmail":"john.smith@exameple.com"
         }
     }' | jq
 ```
@@ -25,14 +25,14 @@ curl -X POST 'https://integrations.expensify.com/Integration-Server/ExpensifyInt
     -d 'requestJobDescription={
         "type":"get",
         "credentials":{
-            "partnerUserID": "aa_dan_higham_sysdig_com",
-            "partnerUserSecret": "075c46ff080abd3c17c077368393396b9d225bd1"
+            "partnerUserID": "aa_john_smith",
+            "partnerUserSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         "inputSettings":{
             "type":"policy",
             "fields": ["categories"],
-            "policyIDList": ["AA4D777BBAA4523A"],
-            "userEmail":"dan.higham@sysdig.com"
+            "policyIDList": ["XXXXXXXXXXXXXXXX"],
+            "userEmail":"john.smith@exameple.com"
         }
-    }' | jq -r ".policyInfo.AA4D777BBAA4523A.categories[].name"
+    }' | jq -r ".policyInfo.XXXXXXXXXXXXXXXX.categories[].name"
 ```
