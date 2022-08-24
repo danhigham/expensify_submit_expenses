@@ -1,0 +1,24 @@
+---
+api:
+  endpoint: https://integrations.expensify.com/Integration-Server/ExpensifyIntegrations
+  key: aa_john_smith
+  secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+email: john.smith@example.com
+report:
+  name: Monthly Expenses
+  policy_id: XXXXXXXXXXXXXXXX
+expenses:
+  - merchant: merchant_name
+    comment: this is item 1
+    category: "Benefits:Employee Perks - TAXABLE"
+    department: "700 - CS (Parent) ― 710 - CS"
+    amount: 1599
+    # date: "2018-01-01"
+    currency: USD
+  - merchant: per
+    comment: this is item 2
+    amount: 1234
+    category: "Employee Perk: Utilities"
+    # date: "2018-01-01"
+    department: "700 - CS (Parent) ― 710 - CS"
+    currency: USD
